@@ -1,4 +1,4 @@
-module github.com/k8sgpt-ai/k8sgpt
+module github.com/apecloud/k8sgpt
 
 go 1.21
 
@@ -36,6 +36,7 @@ require (
 	github.com/google/generative-ai-go v0.8.0
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.19.1
 	github.com/hupe1980/go-huggingface v0.0.15
+	github.com/k8sgpt-ai/k8sgpt v0.3.29
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/prometheus/prometheus v0.49.1
 	github.com/pterm/pterm v0.12.79
