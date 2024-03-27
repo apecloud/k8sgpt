@@ -15,6 +15,7 @@ package common
 
 import (
 	"context"
+	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
 	trivy "github.com/aquasecurity/trivy-operator/pkg/apis/aquasecurity/v1alpha1"
 	openapi_v2 "github.com/google/gnostic/openapiv2"
@@ -41,6 +42,7 @@ type Analyzer struct {
 	PreAnalysis   map[string]PreAnalysis
 	Results       []Result
 	OpenapiSchema *openapi_v2.Document
+	ListOpts      metav1.ListOptions
 }
 
 type PreAnalysis struct {
