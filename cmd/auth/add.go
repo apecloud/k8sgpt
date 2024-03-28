@@ -20,7 +20,7 @@ import (
 	"syscall"
 
 	"github.com/fatih/color"
-	"github.com/k8sgpt-ai/k8sgpt/pkg/ai"
+	"github.com/apecloud/k8sgpt/pkg/ai"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 	"golang.org/x/term"

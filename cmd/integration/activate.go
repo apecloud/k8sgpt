@@ -15,8 +15,8 @@ package integration
 
 import (
 	"github.com/fatih/color"
-	"github.com/k8sgpt-ai/k8sgpt/pkg/analyzer"
-	"github.com/k8sgpt-ai/k8sgpt/pkg/integration"
+	"github.com/apecloud/k8sgpt/pkg/analyzer"
+	"github.com/apecloud/k8sgpt/pkg/integration"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

@@ -3,8 +3,8 @@ package prometheus
 import (
 	"fmt"
 
-	"github.com/k8sgpt-ai/k8sgpt/pkg/common"
-	"github.com/k8sgpt-ai/k8sgpt/pkg/util"
+	"github.com/apecloud/k8sgpt/pkg/common"
+	"github.com/apecloud/k8sgpt/pkg/util"
 	discoverykube "github.com/prometheus/prometheus/discovery/kubernetes"
 	"gopkg.in/yaml.v2"
 )

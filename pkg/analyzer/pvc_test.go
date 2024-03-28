@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/k8sgpt-ai/k8sgpt/pkg/common"
-	"github.com/k8sgpt-ai/k8sgpt/pkg/kubernetes"
+	"github.com/apecloud/k8sgpt/pkg/common"
+	"github.com/apecloud/k8sgpt/pkg/kubernetes"
 	"github.com/stretchr/testify/require"
 	appsv1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

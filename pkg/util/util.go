@@ -25,7 +25,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/k8sgpt-ai/k8sgpt/pkg/kubernetes"
+	"github.com/apecloud/k8sgpt/pkg/kubernetes"
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	k "k8s.io/client-go/kubernetes"

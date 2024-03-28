@@ -17,8 +17,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/k8sgpt-ai/k8sgpt/pkg/common"
-	"github.com/k8sgpt-ai/k8sgpt/pkg/kubernetes"
+	"github.com/apecloud/k8sgpt/pkg/common"
+	"github.com/apecloud/k8sgpt/pkg/kubernetes"
 	"github.com/stretchr/testify/require"
 	policyv1 "k8s.io/api/policy/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

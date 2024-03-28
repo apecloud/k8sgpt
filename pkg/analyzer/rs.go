@@ -16,8 +16,8 @@ package analyzer
 import (
 	"fmt"
 
-	"github.com/k8sgpt-ai/k8sgpt/pkg/common"
-	"github.com/k8sgpt-ai/k8sgpt/pkg/util"
+	"github.com/apecloud/k8sgpt/pkg/common"
+	"github.com/apecloud/k8sgpt/pkg/util"
 )
 
 type ReplicaSetAnalyzer struct{}

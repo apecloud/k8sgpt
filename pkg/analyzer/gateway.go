@@ -16,8 +16,8 @@ package analyzer
 import (
 	"fmt"
 
-	"github.com/k8sgpt-ai/k8sgpt/pkg/common"
-	"github.com/k8sgpt-ai/k8sgpt/pkg/util"
+	"github.com/apecloud/k8sgpt/pkg/common"
+	"github.com/apecloud/k8sgpt/pkg/util"
 	"k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	ctrl "sigs.k8s.io/controller-runtime/pkg/client"

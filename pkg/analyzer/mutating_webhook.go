@@ -17,9 +17,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/k8sgpt-ai/k8sgpt/pkg/common"
-	"github.com/k8sgpt-ai/k8sgpt/pkg/kubernetes"
-	"github.com/k8sgpt-ai/k8sgpt/pkg/util"
+	"github.com/apecloud/k8sgpt/pkg/common"
+	"github.com/apecloud/k8sgpt/pkg/kubernetes"
+	"github.com/apecloud/k8sgpt/pkg/util"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 )

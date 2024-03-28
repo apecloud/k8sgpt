@@ -3,7 +3,7 @@ package aws
 import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/k8sgpt-ai/k8sgpt/pkg/common"
+	"github.com/apecloud/k8sgpt/pkg/common"
 	"github.com/spf13/viper"
 	"os"
 )

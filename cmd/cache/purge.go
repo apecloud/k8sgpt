@@ -19,7 +19,7 @@ import (
 	"os"
 
 	"github.com/fatih/color"
-	"github.com/k8sgpt-ai/k8sgpt/pkg/cache"
+	"github.com/apecloud/k8sgpt/pkg/cache"
 	"github.com/spf13/cobra"
 )
 

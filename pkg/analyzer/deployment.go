@@ -19,9 +19,9 @@ import (
 
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"github.com/k8sgpt-ai/k8sgpt/pkg/common"
-	"github.com/k8sgpt-ai/k8sgpt/pkg/kubernetes"
-	"github.com/k8sgpt-ai/k8sgpt/pkg/util"
+	"github.com/apecloud/k8sgpt/pkg/common"
+	"github.com/apecloud/k8sgpt/pkg/kubernetes"
+	"github.com/apecloud/k8sgpt/pkg/util"
 )
 
 // DeploymentAnalyzer is an analyzer that checks for misconfigured Deployments

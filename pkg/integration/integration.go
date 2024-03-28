@@ -16,12 +16,12 @@ package integration
 import (
 	"errors"
 	"fmt"
-	"github.com/k8sgpt-ai/k8sgpt/pkg/integration/aws"
+	"github.com/apecloud/k8sgpt/pkg/integration/aws"
 
-	"github.com/k8sgpt-ai/k8sgpt/pkg/common"
-	"github.com/k8sgpt-ai/k8sgpt/pkg/integration/prometheus"
-	"github.com/k8sgpt-ai/k8sgpt/pkg/integration/trivy"
-	"github.com/k8sgpt-ai/k8sgpt/pkg/util"
+	"github.com/apecloud/k8sgpt/pkg/common"
+	"github.com/apecloud/k8sgpt/pkg/integration/prometheus"
+	"github.com/apecloud/k8sgpt/pkg/integration/trivy"
+	"github.com/apecloud/k8sgpt/pkg/util"
 	"github.com/spf13/viper"
 )
 

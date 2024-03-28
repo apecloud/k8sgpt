@@ -22,8 +22,8 @@ import (
 	"google.golang.org/grpc/status"
 
 	"github.com/fatih/color"
-	"github.com/k8sgpt-ai/k8sgpt/pkg/common"
-	"github.com/k8sgpt-ai/k8sgpt/pkg/kubernetes"
+	"github.com/apecloud/k8sgpt/pkg/common"
+	"github.com/apecloud/k8sgpt/pkg/kubernetes"
 	helmclient "github.com/mittwald/go-helm-client"
 	"github.com/spf13/viper"
 	"helm.sh/helm/v3/pkg/repo"

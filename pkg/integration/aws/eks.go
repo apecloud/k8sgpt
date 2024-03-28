@@ -9,7 +9,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/eks"
-	"github.com/k8sgpt-ai/k8sgpt/pkg/common"
+	"github.com/apecloud/k8sgpt/pkg/common"
 	"k8s.io/client-go/tools/clientcmd"
 )
 

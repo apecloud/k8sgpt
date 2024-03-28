@@ -20,8 +20,8 @@ import (
 	"syscall"
 
 	"github.com/fatih/color"
-	"github.com/k8sgpt-ai/k8sgpt/pkg/ai/interactive"
-	"github.com/k8sgpt-ai/k8sgpt/pkg/analysis"
+	"github.com/apecloud/k8sgpt/pkg/ai/interactive"
+	"github.com/apecloud/k8sgpt/pkg/analysis"
 	"github.com/spf13/cobra"
 )
 

@@ -19,8 +19,8 @@ import (
 
 	trivy "github.com/aquasecurity/trivy-operator/pkg/apis/aquasecurity/v1alpha1"
 	openapi_v2 "github.com/google/gnostic/openapiv2"
-	"github.com/k8sgpt-ai/k8sgpt/pkg/ai"
-	"github.com/k8sgpt-ai/k8sgpt/pkg/kubernetes"
+	"github.com/apecloud/k8sgpt/pkg/ai"
+	"github.com/apecloud/k8sgpt/pkg/kubernetes"
 	regv1 "k8s.io/api/admissionregistration/v1"
 	appsv1 "k8s.io/api/apps/v1"
 	autov1 "k8s.io/api/autoscaling/v1"

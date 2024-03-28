@@ -14,7 +14,7 @@ limitations under the License.
 package auth
 
 import (
-	"github.com/k8sgpt-ai/k8sgpt/pkg/ai"
+	"github.com/apecloud/k8sgpt/pkg/ai"
 	"github.com/spf13/cobra"
 )
 

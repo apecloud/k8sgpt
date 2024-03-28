@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 
 	"github.com/adrg/xdg"
-	"github.com/k8sgpt-ai/k8sgpt/pkg/util"
+	"github.com/apecloud/k8sgpt/pkg/util"
 )
 
 var _ (ICache) = (*FileBasedCache)(nil)

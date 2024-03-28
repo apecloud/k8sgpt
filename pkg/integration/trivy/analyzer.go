@@ -20,8 +20,8 @@ import (
 	ctrl "sigs.k8s.io/controller-runtime/pkg/client"
 
 	"github.com/aquasecurity/trivy-operator/pkg/apis/aquasecurity/v1alpha1"
-	"github.com/k8sgpt-ai/k8sgpt/pkg/common"
-	"github.com/k8sgpt-ai/k8sgpt/pkg/util"
+	"github.com/apecloud/k8sgpt/pkg/common"
+	"github.com/apecloud/k8sgpt/pkg/util"
 )
 
 type TrivyAnalyzer struct {

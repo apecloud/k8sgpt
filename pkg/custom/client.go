@@ -5,7 +5,7 @@ import (
 	schemav1 "buf.build/gen/go/k8sgpt-ai/k8sgpt/protocolbuffers/go/schema/v1"
 	"context"
 	"fmt"
-	"github.com/k8sgpt-ai/k8sgpt/pkg/common"
+	"github.com/apecloud/k8sgpt/pkg/common"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 )

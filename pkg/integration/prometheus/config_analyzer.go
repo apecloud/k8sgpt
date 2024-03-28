@@ -11,8 +11,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/k8sgpt-ai/k8sgpt/pkg/common"
-	"github.com/k8sgpt-ai/k8sgpt/pkg/util"
+	"github.com/apecloud/k8sgpt/pkg/common"
+	"github.com/apecloud/k8sgpt/pkg/util"
 	promconfig "github.com/prometheus/prometheus/config"
 	yaml "gopkg.in/yaml.v2"
 	corev1 "k8s.io/api/core/v1"
